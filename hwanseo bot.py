@@ -69,6 +69,6 @@ async def 노래(ctx, *, text):
         await ctx.send("봇이 음성 채널에 연결되어 있지 않습니다. !들어와 명령어로 봇을 음성 채널에 연결하세요.")
 
 
-
+access_token = os.environ["BOT_TOKEN"]
 # 봇을 실행시키기 위한 토큰을 작성해주는 곳i
-bot.run('MTI0Nzk1OTc5MDgwMjQzNjE3OA.GIjX0L.c2zMcQfYMtQ_woSVQSdLAUT-w6Zff1bgqUXSms')
+bot.run(access_token)
